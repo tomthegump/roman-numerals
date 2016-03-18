@@ -1,6 +1,6 @@
-Roman numerals Java coding kata
+Coding Kata - Roman Numerals - Java
 ===
-This kata can be used for starting with some simple problem to learn about Java.
+This kata contains a simple problem than can be used for start learning a new language like Java.
 
 It already contains the src/main/test folders for writing the corresponding tests.
 So you can use it directly for your testdriven approach.
@@ -13,19 +13,18 @@ Write the cleanest code you can considering the following principles:
 * Avoid repeating yourself as much as possible (even between production and test classes) -> DRY
 
 You should be able to answer the following questions afterwards:
-
 1. What have you learned this time?
 2. What would you try differently next time when doing the kata?
-3. What are especially proud of your solution?
+3. What part of your solution are you especially proud of?
 
 ### Problem description
-Your task is to provide the possibility to convert any arabic number (1,2,20,999, etc.) into the corrsponding String of its roman numerals representation (I, II, XX, CMXCIX).
+Your task is to provide the possibility to convert any arabic number (like 1, 2, 20, 999, etc) into the corrsponding String of its roman numerals representation (like I, II, XX, CMXCIX, etc).
 
-A smaller number in front of a larger number means subtraction, all else means addition. For example, IV means 4, VI means 6.
+A smaller number in front of a larger number means subtraction, everything else means addition. For example, IV means 4, VI means 6.
 
 You would not put more than one smaller number in front of a larger number to subtract. For example, IIV would not mean 3.
 
-You must separate ones, tens, hundreds, and thousands as separate items. That means that 99 is XCIX, 90 + 9, but never should be written as IC. Similarly, 999 cannot be IM and 1999 cannot be MIM.
+You must separate ones, tens, hundreds, and thousands as separate items. That means that 99 is XCIX (90+9), and not IC (100-1). Similarly, 999 cannot be IM and 1999 cannot be MIM.
 
 |Symbol|Value|
 |------|-----|
@@ -39,12 +38,16 @@ You must separate ones, tens, hundreds, and thousands as separate items. That me
 
 
 ### Downloading the kata
+By cloning this repository using git
 ```
 git clone https://github.com/tomthegump/roman-numerals
 ```
+...or downloading it in as a zip file
+
 #### IntelliJ IDEA
 When using IDEA as your preferred IDE you can simply import from the build.gradle file.
 
 #### Import into eclipse
 Please download the buildship plugin for eclipse (make eclipse ready to import from gradle files) from here: http://projects.eclipse.org/projects/tools.buildship
-or follow the instrcutions for this plugin from Lars Vogel: http://www.vogella.com/tutorials/EclipseGradle/article.html
+...or follow the instrcutions for this plugin from Lars Vogel:
+http://www.vogella.com/tutorials/EclipseGradle/article.html
